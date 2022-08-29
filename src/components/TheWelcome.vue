@@ -5,6 +5,7 @@ import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
 import SupportIcon from './icons/IconSupport.vue'
+import HelloWorld from './HelloWorld.vue'
 </script>
 
 <template>
@@ -81,4 +82,5 @@ import SupportIcon from './icons/IconSupport.vue'
     us by
     <a target="_blank" href="https://vuejs.org/sponsor/">becoming a sponsor</a>.
   </WelcomeItem>
+  <HelloWorld msg="selamat datang" />
 </template>
